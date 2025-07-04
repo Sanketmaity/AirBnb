@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+</head>
+<body>
+  <h1>Welcome!</h1>
+  <br><br>
+  <h1>Login</h1>
+  <form action="/login" method="POST">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+    <button type="submit" class="btn btn-dark" 
+    style="background-color: rgb(6, 190, 27); border: none;">Login</button>
+  </form>
+  <br>
+  <a href="/signup" style="text-decoration: none;">
+    Sign up
+  </a>
+</body>
+</html>
